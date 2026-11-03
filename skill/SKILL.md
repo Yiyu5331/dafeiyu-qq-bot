@@ -17,6 +17,7 @@ description: 在一台电脑上用 AstrBot + NapCat 养一个住在 QQ 里的 AI
 
 | 步 | 做什么 | 读哪一节 | 需要人 |
 |---|---|---|---|
+| 0 | 装 DSH（DeepSeek Harness）并选好工作区 | `docs/00` | 下载 / 点确认 |
 | 1 | 装 Python / uv / Node / ffmpeg | `docs/01` | 否 |
 | 2 | 克隆 QQ 副本、注入 NapCat、扫码登录 | `docs/02` | **要扫码** |
 | 3 | 装 AstrBot 并起后台 | `docs/03` | 否 |
@@ -26,6 +27,8 @@ description: 在一台电脑上用 AstrBot + NapCat 养一个住在 QQ 里的 AI
 | 7 | 装表情包 / 语音 / 记忆插件 | `docs/07` | 否 |
 | 8 | 安全护栏（白名单 / 管理员 / 关电脑操作） | `docs/08` | 否 |
 | 9 | 自检 | `scripts/check_env.sh` + `docs/09` | 否 |
+
+照抄命令在 `docs/11-逐条命令清单.md`，每一步都写了「成功是什么样」。
 
 ## 硬性规则
 

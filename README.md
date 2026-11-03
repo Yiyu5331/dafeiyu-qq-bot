@@ -91,6 +91,7 @@
 
 | 步骤 | 做什么 | 时间 | 需要你手动吗 |
 |---|---|---|---|
+| 0 | **装 DSH（DeepSeek Harness）** | 10 min | 下载 / 点确认 |
 | 1 | 装环境（Python / uv / Node / ffmpeg） | 15 min | 否 |
 | 2 | 克隆 QQ App，注入 NapCat，扫码登录小号 | 30 min | **要扫码** |
 | 3 | 装 AstrBot，起后台 | 10 min | 否 |
@@ -107,6 +108,7 @@
 
 | 文档 | 内容 |
 |---|---|
+| [docs/00-装DSH.md](docs/00-装DSH.md) | **从装 DeepSeek Harness 开始**：下载、安装、工作区、权限 |
 | [docs/01-环境与目录.md](docs/01-环境与目录.md) | 装什么、装在哪、macOS 和 Windows 的差别 |
 | [docs/02-装NapCat并注入QQ.md](docs/02-装NapCat并注入QQ.md) | **最坑的一步**：为什么必须克隆 App、怎么过签名、怎么扫码 |
 | [docs/03-装AstrBot.md](docs/03-装AstrBot.md) | 源码安装、后台、改密码 |
@@ -117,6 +119,7 @@
 | [docs/08-安全护栏.md](docs/08-安全护栏.md) | 只让你的号能聊、关掉电脑操作、密码管理 |
 | [docs/09-运维与排障.md](docs/09-运维与排障.md) | 12 个真实踩过的坑、日志在哪、怎么恢复 |
 | [docs/10-一天怎么用.md](docs/10-一天怎么用.md) | 装完之后每天怎么养它 |
+| [docs/11-逐条命令清单.md](docs/11-逐条命令清单.md) | **照抄版**：每条命令 + 成功长什么样 + 报错怎么办 |
 | [skill/SKILL.md](skill/SKILL.md) | 给 AI 助手读的安装 skill |
 
 ---
