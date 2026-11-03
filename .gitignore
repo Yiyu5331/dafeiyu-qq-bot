@@ -1,0 +1,9 @@
+.DS_Store
+*.log
+secrets/
+secrets*.txt
+*.db
+*.db-wal
+*.db-shm
+node_modules/
+__pycache__/

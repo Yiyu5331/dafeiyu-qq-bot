@@ -1,0 +1,90 @@
+{
+  "_comment": "这是精简示例，只保留跑起来必须的字段。真实文件由 AstrBot 自动生成，不要手抄整份。",
+  "config_version": 2,
+  "platform": [
+    {
+      "id": "qq",
+      "type": "aiocqhttp",
+      "enable": true,
+      "ws_reverse_host": "127.0.0.1",
+      "ws_reverse_port": 6199,
+      "ws_reverse_token": "REPLACE_WITH_RANDOM_32_HEX"
+    }
+  ],
+  "provider": [
+    {
+      "id": "deepseek",
+      "type": "openai_chat_completion",
+      "enable": true,
+      "model_config": {
+        "model": "deepseek-flash"
+      },
+      "key": [
+        "REPLACE_WITH_DEEPSEEK_KEY"
+      ],
+      "api_base": "https://api.deepseek.com/v1"
+    },
+    {
+      "id": "大肥鱼语音-豆包",
+      "type": "seed_audio_tts",
+      "enable": true,
+      "model_config": {
+        "model": "seed-audio-1.0"
+      },
+      "volc_app_id": "REPLACE",
+      "volc_access_token": "REPLACE",
+      "seed_audio_whole_reply": true,
+      "seed_audio_reply_probability": 0.33
+    },
+    {
+      "id": "大肥鱼记忆-硅基流动",
+      "type": "openai_embedding",
+      "enable": true,
+      "model_config": {
+        "model": "BAAI/bge-m3"
+      },
+      "key": [
+        "REPLACE_WITH_SILICONFLOW_KEY"
+      ],
+      "api_base": "https://api.siliconflow.cn/v1"
+    }
+  ],
+  "provider_settings": {
+    "enable": true,
+    "provider_pool": [
+      "*"
+    ],
+    "wake_prefix": "",
+    "computer_use_runtime": "none"
+  },
+  "provider_tts_settings": {
+    "enable": false
+  },
+  "platform_settings": {
+    "id_whitelist": [
+      "qq:FriendMessage:1000000000"
+    ],
+    "segmented_reply": {
+      "enable": true,
+      "only_llm_result": true,
+      "interval_method": "random",
+      "interval": "1.5,3.5",
+      "split_mode": "regex",
+      "split_words": [
+        "。",
+        "？",
+        "！",
+        "~",
+        "…"
+      ],
+      "words_count_threshold": 150
+    }
+  },
+  "admins_id": [
+    "1000000000"
+  ],
+  "wake_prefix": "",
+  "plugin_set": [
+    "*"
+  ]
+}
