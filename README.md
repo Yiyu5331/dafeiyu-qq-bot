@@ -1,10 +1,16 @@
 <div align="center">
 
-# 养一只住在 QQ 里的 AI
+<img src="assets/banner.png" alt="养一只住在 QQ 里的 AI" width="100%" />
 
 **AstrBot 当大脑 · NapCat 登 QQ · DeepSeek 当嘴 · 豆包当声音 · 硅基流动当记忆**
 
 从一个空 QQ 小号，到一只有记性、会发表情包、会主动找你说话的大肥鱼
+
+![python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)
+![platform](https://img.shields.io/badge/macOS%20%7C%20Windows-supported-2ea44f)
+![AstrBot](https://img.shields.io/badge/AstrBot-4.29.3-6c5ce7)
+![NapCat](https://img.shields.io/badge/NapCat-QQNT%20inject-e17055)
+![license](https://img.shields.io/badge/license-MIT-blue)
 
 </div>
 
